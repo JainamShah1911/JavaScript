@@ -1,0 +1,35 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+	function person(name, age){
+			this.name = name;
+			this.age = age;
+			this.years = yearsLeft;
+		}
+		
+	function yearsLeft(){
+	
+		var numYears = 65 - this.age;
+		return numYears;
+	}
+	
+	var jainam = new person("jainam shah",23);
+	
+</script>
+</head>
+
+<body>
+
+
+<script type="text/javascript">
+	
+	document.write(jainam.years()+"<br>");
+	
+</script>
+
+
+</body>
+
+</html>
