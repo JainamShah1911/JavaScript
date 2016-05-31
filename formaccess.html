@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+
+
+<form name="jainamsForm">
+
+	UserName:<input type="text" name="uname" /><br><br>
+	Password:<input type="password" name="pass" /><br><br>
+	<input type="submit"value="submit"/>
+	
+</form>
+
+
+<script type="text/javascript">
+//using properties
+	var x = document.forms[0].length;
+	document.write(x);
+//using array	
+	var x = document.forms[0].elements[0].name;
+	document.write(x);
+//using names
+	var x = document.jainamsForm.uname.name;
+	document.write(x);
+	
+</script>
+
+</body>
+
+</html>
